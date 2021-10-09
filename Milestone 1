@@ -1,0 +1,16 @@
+# Q1 s(dna)
+def s(dna):
+    dict = {}
+    dna = dna.upper()
+    count_A = dna.count('A')
+    count_C = dna.count('C')
+    count_G = dna.count('G')
+    count_T = dna.count('T')
+
+    dict['A'] = count_A
+    dict['C'] = count_C
+    dict['G'] = count_G
+    dict['T'] = count_T
+    return dict
+dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+s(dna)    
